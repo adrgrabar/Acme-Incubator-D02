@@ -33,6 +33,13 @@ master.menu.anonymous.notice = Noticias activas
 master.menu.anonymous.toolRecord = Herramientas
 master.menu.anonymous.technologyRecord = Tecnologías
 
+# master.menu.authenticated ###################################################
+
+master.menu.authenticated = Autentificado
+master.menu.authenticated.notice = Noticias activas
+master.menu.authenticated.toolRecord = Herramientas
+master.menu.authenticated.technologyRecord = Tecnologías
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador

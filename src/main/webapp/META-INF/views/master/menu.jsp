@@ -24,6 +24,12 @@
 			<acme:menu-suboption code="master.menu.anonymous.toolRecord" action="/anonymous/tool-record/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.technologyRecord" action="/anonymous/technology-record/list"/>
 		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.authenticated" access="!isAnonymous()">
+			<acme:menu-suboption code="master.menu.authenticated.notice" action="/authenticated/notice/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.toolRecord" action="/authenticated/tool-record/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.technologyRecord" action="/authenticated/technology-record/list"/>
+		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
