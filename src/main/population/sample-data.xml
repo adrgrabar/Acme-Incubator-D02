@@ -71,5 +71,35 @@
 		<property name="webSite" value="http://www.google.com" />
 		<property name="email" value="email@email.com" />
 	</bean>
+	
+	<bean id="technologyRecord01" class="acme.entities.technologyRecords.TechnologyRecord">
+		<property name="title" value="Sample technology record 1" />
+		<property name="activitySector" value="Agriculture" />
+		<property name="stars" value="2" />
+		<property name="description" value="Sample technology" />
+		<property name="webSite" value="http://www.google.com" />
+		<property name="inventor" value="Inventor 1" />
+		<property name="email" value="email@email.com" />
+	</bean>
+	
+	<bean id="technologyRecord02" class="acme.entities.technologyRecords.TechnologyRecord">
+		<property name="title" value="Sample technology record 2" />
+		<property name="activitySector" value="Informatics" />
+		<property name="stars" value="5" />
+		<property name="inventor" value="Inventor 1" />
+		<property name="description" value="Sample technology" />
+		<property name="webSite" value="http://www.google.com" />
+		<property name="email" value="email@email.com" />
+	</bean>
+	
+	<bean id="technologyRecord03" class="acme.entities.technologyRecords.TechnologyRecord">
+		<property name="title" value="Sample technology record 3" />
+		<property name="activitySector" value="Agriculture" />
+		<property name="stars" value="5" />
+		<property name="inventor" value="Inventor 2" />
+		<property name="description" value="Sample technology" />
+		<property name="webSite" value="http://www.google.com" />
+		<property name="email" value="email@email.com" />
+	</bean>
 
 </beans>

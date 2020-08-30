@@ -22,6 +22,7 @@
 			<acme:menu-suboption code="master.menu.anonymous.adrian-link" action="http://www.google.com/"/>
 			<acme:menu-suboption code="master.menu.anonymous.notice" action="/anonymous/notice/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.toolRecord" action="/anonymous/tool-record/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.technologyRecord" action="/anonymous/technology-record/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
