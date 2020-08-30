@@ -41,5 +41,35 @@
 		<property name="body" value="This is the third notice" />
 		<property name="links" value="www.google.com" />
 	</bean>
+	
+	<bean id="toolRecord01" class="acme.entities.toolRecords.ToolRecord">
+		<property name="title" value="Sample tool record 1" />
+		<property name="activitySector" value="Agriculture" />
+		<property name="stars" value="2" />
+		<property name="description" value="Sample tool" />
+		<property name="webSite" value="http://www.google.com" />
+		<property name="inventor" value="Inventor 1" />
+		<property name="email" value="email@email.com" />
+	</bean>
+	
+	<bean id="toolRecord02" class="acme.entities.toolRecords.ToolRecord">
+		<property name="title" value="Sample tool record 2" />
+		<property name="activitySector" value="Informatics" />
+		<property name="stars" value="5" />
+		<property name="inventor" value="Inventor 1" />
+		<property name="description" value="Sample tool" />
+		<property name="webSite" value="http://www.google.com" />
+		<property name="email" value="email@email.com" />
+	</bean>
+	
+	<bean id="toolRecord03" class="acme.entities.toolRecords.ToolRecord">
+		<property name="title" value="Sample tool record 3" />
+		<property name="activitySector" value="Agriculture" />
+		<property name="stars" value="5" />
+		<property name="inventor" value="Inventor 2" />
+		<property name="description" value="Sample tool" />
+		<property name="webSite" value="http://www.google.com" />
+		<property name="email" value="email@email.com" />
+	</bean>
 
 </beans>

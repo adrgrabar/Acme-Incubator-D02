@@ -26,7 +26,7 @@ public class ToolRecord extends DomainEntity {
 	private String				activitySector;
 
 	@NotBlank
-	private String				investor;
+	private String				inventor;
 
 	@NotBlank
 	@Column(length = 1024)
