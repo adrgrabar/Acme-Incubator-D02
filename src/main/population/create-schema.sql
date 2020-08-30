@@ -20,6 +20,24 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `challenge` (
+       `id` integer not null,
+        `version` integer not null,
+        `bronze_level_goal` varchar(255),
+        `bronze_level_reward_amount` double precision,
+        `bronze_level_reward_currency` varchar(255),
+        `deadline` datetime(6),
+        `description` varchar(1024),
+        `gold_level_goal` varchar(255),
+        `gold_level_reward_amount` double precision,
+        `gold_level_reward_currency` varchar(255),
+        `silver_level_goal` varchar(255),
+        `silver_level_reward_amount` double precision,
+        `silver_level_reward_currency` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `consumer` (
        `id` integer not null,
         `version` integer not null,
@@ -29,12 +47,82 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `inquiry` (
+       `id` integer not null,
+        `version` integer not null,
+        `date` datetime(6),
+        `deadline` datetime(6),
+        `description` varchar(1024),
+        `email` varchar(255),
+        `money_end_amount` double precision,
+        `money_end_currency` varchar(255),
+        `money_start_amount` double precision,
+        `money_start_currency` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `notice` (
+       `id` integer not null,
+        `version` integer not null,
+        `body` varchar(1024),
+        `date` datetime(6),
+        `deadline` datetime(6),
+        `links` varchar(255),
+        `picture` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `overture` (
+       `id` integer not null,
+        `version` integer not null,
+        `date` datetime(6),
+        `deadline` datetime(6),
+        `description` varchar(1024),
+        `email` varchar(255),
+        `money_end_amount` double precision,
+        `money_end_currency` varchar(255),
+        `money_start_amount` double precision,
+        `money_start_currency` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `provider` (
        `id` integer not null,
         `version` integer not null,
         `user_account_id` integer,
         `company` varchar(255),
         `sector` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `technology_record` (
+       `id` integer not null,
+        `version` integer not null,
+        `activity_sector` varchar(255),
+        `description` varchar(1024),
+        `email` varchar(255),
+        `investor` varchar(255),
+        `open_source` bit not null,
+        `stars` integer,
+        `title` varchar(255),
+        `web_site` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `tool_record` (
+       `id` integer not null,
+        `version` integer not null,
+        `activity_sector` varchar(255),
+        `description` varchar(1024),
+        `email` varchar(255),
+        `investor` varchar(255),
+        `open_source` bit not null,
+        `stars` integer,
+        `title` varchar(255),
+        `web_site` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 

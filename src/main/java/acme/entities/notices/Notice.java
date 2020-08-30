@@ -2,7 +2,6 @@
 package acme.entities.notices;
 
 import java.util.Date;
-import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -43,5 +42,5 @@ public class Notice extends DomainEntity {
 	@Column(length = 1024)
 	private String				body;
 
-	private List<String>		links;
+	private String				links;
 }

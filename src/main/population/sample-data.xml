@@ -16,5 +16,30 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="conversion-service.xml" />
+	
+	<bean id="notice01" class="acme.entities.notices.Notice">
+		<property name="title" value="Sample notice" />
+		<property name="date" value="2010/12/17 00:00" />
+		<property name="picture" value="https://images.unsplash.com/photo-1542044896530-05d85be9b11a?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;w=1000&amp;q=80" />
+		<property name="deadline" value="2030/12/17 00:00" />
+		<property name="body" value="This is the first notice" />
+	</bean>
+	
+	<bean id="notice02" class="acme.entities.notices.Notice">
+		<property name="title" value="Sample notice 2" />
+		<property name="date" value="2012/12/17 00:00" />
+		<property name="picture" value="https://images.unsplash.com/photo-1542044896530-05d85be9b11a?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;w=1000&amp;q=80" />
+		<property name="deadline" value="2019/12/17 00:00" />
+		<property name="body" value="This is the second notice" />
+	</bean>
+	
+	<bean id="notice03" class="acme.entities.notices.Notice">
+		<property name="title" value="Sample notice 3" />
+		<property name="date" value="2015/12/17 00:00" />
+		<property name="picture" value="https://images.unsplash.com/photo-1542044896530-05d85be9b11a?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;w=1000&amp;q=80" />
+		<property name="deadline" value="2030/12/17 00:00" />
+		<property name="body" value="This is the third notice" />
+		<property name="links" value="www.google.com" />
+	</bean>
 
 </beans>

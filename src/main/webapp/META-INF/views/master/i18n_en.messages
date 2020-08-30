@@ -29,6 +29,7 @@ master.menu.sign-out = Sign out
 
 master.menu.anonymous = Anonymous
 master.menu.anonymous.adrian-link = Adrian's link
+master.menu.anonymous.notice = Active notices
 
 # master.menu.administrator ###################################################
 
