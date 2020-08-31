@@ -10,7 +10,7 @@
  * they accept any liabilities with respect to them.
  */
 
-package acme.features.authenticated.technologyRecords.copy;
+package acme.features.authenticated.technologyRecords;
 
 import javax.annotation.PostConstruct;
 

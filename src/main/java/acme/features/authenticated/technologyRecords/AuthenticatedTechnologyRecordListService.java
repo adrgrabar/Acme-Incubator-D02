@@ -1,5 +1,5 @@
 
-package acme.features.authenticated.technologyRecords.copy;
+package acme.features.authenticated.technologyRecords;
 
 import java.util.Collection;
 
