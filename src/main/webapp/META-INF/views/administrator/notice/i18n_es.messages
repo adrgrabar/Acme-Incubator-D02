@@ -1,0 +1,14 @@
+administrator.notice.list.label.title = Título
+administrator.notice.list.label.picture = URL de la imagen
+administrator.notice.list.label.date = Fecha de creación
+administrator.notice.list.label.deadline = Fecha de fin
+administrator.notice.list.label.body = Cuerpo
+administrator.notice.list.label.links = Enlaces
+
+administrator.notice.form.label.title = Título
+administrator.notice.form.label.picture = URL de la imagen
+administrator.notice.form.label.date = Fecha de creación
+administrator.notice.form.label.deadline = Fecha de fin
+administrator.notice.form.label.body = Cuerpo
+administrator.notice.form.label.links = Enlaces
+administrator.notice.form.button.return = Volver

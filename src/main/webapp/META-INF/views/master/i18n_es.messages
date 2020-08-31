@@ -44,6 +44,7 @@ master.menu.authenticated.technologyRecord = Tecnologías
 
 master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
+master.menu.administrator.notice = Noticias
 master.menu.administrator.shutdown = Parar el sistema
 
 # master.menu.provider ########################################################
