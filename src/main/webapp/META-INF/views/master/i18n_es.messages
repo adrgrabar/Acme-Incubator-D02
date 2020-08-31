@@ -39,6 +39,9 @@ master.menu.authenticated = Autentificado
 master.menu.authenticated.notice = Noticias activas
 master.menu.authenticated.toolRecord = Herramientas
 master.menu.authenticated.technologyRecord = Tecnologías
+master.menu.authenticated.inquiry = Investigaciones
+master.menu.authenticated.overture = Propuestas
+master.menu.authenticated.challenge = Retos
 
 # master.menu.administrator ###################################################
 

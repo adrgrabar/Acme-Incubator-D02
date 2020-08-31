@@ -7,6 +7,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.Valid;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
@@ -39,9 +40,11 @@ public class Inquiry extends DomainEntity {
 	private String				description;
 
 	@NotNull
+	@Valid
 	private Money				moneyStart;
 
 	@NotNull
+	@Valid
 	private Money				moneyEnd;
 
 	@NotBlank

@@ -107,5 +107,101 @@
 		<property name="webSite" value="http://www.google.com" />
 		<property name="email" value="email@email.com" />
 	</bean>
+	
+	<bean id="inquiry01" class="acme.entities.inquiries.Inquiry">
+		<property name="title" value="Sample inquiry" />
+		<property name="description" value="Sample inquiry" />
+		<property name="date" value="2010/12/17 00:00" />
+		<property name="deadline" value="2035/12/17 00:00" />
+		<property name="moneyStart" value="EUR 0" />
+		<property name="moneyEnd" value="EUR 200" />
+		<property name="email" value="email@email.com" />
+	</bean>
+	
+	<bean id="inquiry02" class="acme.entities.inquiries.Inquiry">
+		<property name="title" value="Sample inquiry 02" />
+		<property name="description" value="Sample inquiry 02" />
+		<property name="date" value="2015/12/17 00:00" />
+		<property name="deadline" value="2035/12/17 00:00" />
+		<property name="moneyStart" value="EUR 3" />
+		<property name="moneyEnd" value="EUR 300" />
+		<property name="email" value="email@email.com" />
+	</bean>
+	
+	<bean id="inquiry03" class="acme.entities.inquiries.Inquiry">
+		<property name="title" value="Sample inquiry 03" />
+		<property name="description" value="Sample inquiry 03" />
+		<property name="date" value="2017/12/17 00:00" />
+		<property name="deadline" value="2035/12/17 00:00" />
+		<property name="moneyStart" value="EUR 80" />
+		<property name="moneyEnd" value="EUR 100" />
+		<property name="email" value="email@email.com" />
+	</bean>
+	
+	<bean id="overture01" class="acme.entities.overtures.Overture">
+		<property name="title" value="Sample overture" />
+		<property name="description" value="Sample overture" />
+		<property name="date" value="2010/12/17 00:00" />
+		<property name="deadline" value="2035/12/17 00:00" />
+		<property name="moneyStart" value="EUR 0" />
+		<property name="moneyEnd" value="EUR 200" />
+		<property name="email" value="email@email.com" />
+	</bean>
+	
+	<bean id="overture02" class="acme.entities.overtures.Overture">
+		<property name="title" value="Sample overture 02" />
+		<property name="description" value="Sample overture 02" />
+		<property name="date" value="2015/12/17 00:00" />
+		<property name="deadline" value="2035/12/17 00:00" />
+		<property name="moneyStart" value="EUR 3" />
+		<property name="moneyEnd" value="EUR 300" />
+		<property name="email" value="email@email.com" />
+	</bean>
+	
+	<bean id="overture03" class="acme.entities.overtures.Overture">
+		<property name="title" value="Sample overture 03" />
+		<property name="description" value="Sample overture 03" />
+		<property name="date" value="2017/12/17 00:00" />
+		<property name="deadline" value="2035/12/17 00:00" />
+		<property name="moneyStart" value="EUR 80" />
+		<property name="moneyEnd" value="EUR 100" />
+		<property name="email" value="email@email.com" />
+	</bean>
+	
+	<bean id="challenge01" class="acme.entities.challenges.Challenge">
+		<property name="title" value="Sample challenge 01" />
+		<property name="deadline" value="2020/10/10 19:10" />
+		<property name="description" value="This is the description of the first challenge" />
+		<property name="goldLevelGoal" value="This is the first gold level goal." />
+		<property name="silverLevelGoal" value="This is the first silver level goal." />
+		<property name="bronzeLevelGoal" value="This is the first bronze level goal." />
+		<property name="goldLevelReward" value="1000.0 €" />
+		<property name="silverLevelReward" value="700.0 €" />
+		<property name="bronzeLevelReward" value="300.0 €" />
+	</bean>
+
+	<bean id="challenge02" class="acme.entities.challenges.Challenge">
+		<property name="title" value="Sample challenge 02" />
+		<property name="deadline" value="2025/5/12 13:10" />
+		<property name="description" value="This is the description of the second challenge" />
+		<property name="goldLevelGoal" value="This is the second gold level goal." />
+		<property name="silverLevelGoal" value="This is the second silver level goal." />
+		<property name="bronzeLevelGoal" value="This is the second bronze level goal." />
+		<property name="goldLevelReward" value="1000.0 €" />
+		<property name="silverLevelReward" value="700.0 €" />
+		<property name="bronzeLevelReward" value="300.0 €" />
+	</bean>
+
+	<bean id="challenge03" class="acme.entities.challenges.Challenge">
+		<property name="title" value="Sample challenge 03" />
+		<property name="deadline" value="2022/12/10 10:13" />
+		<property name="description" value="This is the description of the third challenge" />
+		<property name="goldLevelGoal" value="This is the third gold level goal." />
+		<property name="silverLevelGoal" value="This is the third silver level goal." />
+		<property name="bronzeLevelGoal" value="This is the third bronze level goal." />
+		<property name="goldLevelReward" value="1000.0 €" />
+		<property name="silverLevelReward" value="700.0 €" />
+		<property name="bronzeLevelReward" value="300.0 €" />
+	</bean>
 
 </beans>
