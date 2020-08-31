@@ -8,3 +8,4 @@ authenticated.inquiry.form.label.deadline = Deadline
 authenticated.inquiry.form.label.email = Email
 authenticated.inquiry.form.label.moneyStart = Minimun money
 authenticated.inquiry.form.label.moneyEnd = Maximun money
+authenticated.inquiry.form.button.return = Return

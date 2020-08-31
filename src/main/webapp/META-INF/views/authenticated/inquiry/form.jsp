@@ -21,7 +21,7 @@
 	<acme:form-textbox code="authenticated.inquiry.form.label.email" path="email"/>
 	<acme:form-moment code="authenticated.inquiry.form.label.date" path="date"/>
 	<acme:form-moment code="authenticated.inquiry.form.label.deadline" path="deadline"/>
-	<acme:form-money code="authenticated.inquiry.form.label.moneyStart" path="Minimun money"/>
-	<acme:form-money code="authenticated.inquiry.form.label.moneyEnd" path="Maximun money"/>
+	<acme:form-money code="authenticated.inquiry.form.label.moneyStart" path="moneyStart"/>
+	<acme:form-money code="authenticated.inquiry.form.label.moneyEnd" path="moneyEnd"/>
 	<acme:form-return code="authenticated.inquiry.form.button.return"/>
 </acme:form>
