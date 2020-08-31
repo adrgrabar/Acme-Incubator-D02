@@ -18,10 +18,10 @@
 <acme:form>
 	<acme:form-textbox code="anonymous.technologyRecord.form.label.title" path="title"/>
 	<acme:form-textbox code="anonymous.technologyRecord.form.label.activitySector" path="activitySector"/>
-	<acme:form-url code="anonymous.technologyRecord.form.label.inventor" path="inventor"/>
-	<acme:form-moment code="anonymous.technologyRecord.form.label.description" path="description"/>
-	<acme:form-moment code="anonymous.technologyRecord.form.label.webSite" path="webSite"/>
+	<acme:form-textbox code="anonymous.technologyRecord.form.label.inventor" path="inventor"/>
+	<acme:form-textbox code="anonymous.technologyRecord.form.label.description" path="description"/>
+	<acme:form-url code="anonymous.technologyRecord.form.label.webSite" path="webSite"/>
 	<acme:form-textbox code="anonymous.technologyRecord.form.label.email" path="email"/>
-	<acme:form-textbox code="anonymous.technologyRecord.form.label.openSource" path="openSource"/>
+	<acme:form-checkbox code="anonymous.technologyRecord.form.label.openSource" path="openSource"/>
 	<acme:form-return code="anonymous.technologyRecord.form.button.return"/>
 </acme:form>

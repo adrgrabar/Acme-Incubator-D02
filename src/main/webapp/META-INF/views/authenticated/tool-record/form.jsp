@@ -18,10 +18,10 @@
 <acme:form>
 	<acme:form-textbox code="authenticated.toolRecord.form.label.title" path="title"/>
 	<acme:form-textbox code="authenticated.toolRecord.form.label.activitySector" path="activitySector"/>
-	<acme:form-url code="authenticated.toolRecord.form.label.inventor" path="inventor"/>
-	<acme:form-moment code="authenticated.toolRecord.form.label.description" path="description"/>
-	<acme:form-moment code="authenticated.toolRecord.form.label.webSite" path="webSite"/>
+	<acme:form-textbox code="authenticated.toolRecord.form.label.inventor" path="inventor"/>
+	<acme:form-textbox code="authenticated.toolRecord.form.label.description" path="description"/>
+	<acme:form-url code="authenticated.toolRecord.form.label.webSite" path="webSite"/>
 	<acme:form-textbox code="authenticated.toolRecord.form.label.email" path="email"/>
-	<acme:form-textbox code="authenticated.toolRecord.form.label.openSource" path="openSource"/>
+	<acme:form-checkbox code="authenticated.toolRecord.form.label.openSource" path="openSource"/>
 	<acme:form-return code="authenticated.toolRecord.form.button.return"/>
 </acme:form>
