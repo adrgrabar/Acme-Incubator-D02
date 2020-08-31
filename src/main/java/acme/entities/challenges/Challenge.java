@@ -35,24 +35,24 @@ public class Challenge extends DomainEntity {
 	private String				description;
 
 	@NotBlank
-	private String				goldLevelGoal;
+	private String				expertGoal;
 
 	@NotBlank
-	private String				silverLevelGoal;
+	private String				averageGoal;
 
 	@NotBlank
-	private String				bronzeLevelGoal;
+	private String				rookieGoal;
 
 	@NotNull
 	@Valid
-	private Money				goldLevelReward;
+	private Money				expertReward;
 
 	@NotNull
 	@Valid
-	private Money				silverLevelReward;
+	private Money				averageReward;
 
 	@NotNull
 	@Valid
-	private Money				bronzeLevelReward;
+	private Money				rookieReward;
 
 }
