@@ -301,7 +301,7 @@ has v</panel_attributes>
     <coordinates>
       <x>203</x>
       <y>301</y>
-      <w>147</w>
+      <w>231</w>
       <h>98</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
@@ -322,7 +322,7 @@ bg=orange</panel_attributes>
     <coordinates>
       <x>203</x>
       <y>406</y>
-      <w>147</w>
+      <w>231</w>
       <h>126</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
@@ -345,7 +345,7 @@ bg=orange</panel_attributes>
     <coordinates>
       <x>203</x>
       <y>539</y>
-      <w>147</w>
+      <w>231</w>
       <h>112</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
@@ -365,9 +365,9 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>357</x>
+      <x>441</x>
       <y>539</y>
-      <w>147</w>
+      <w>231</w>
       <h>112</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
@@ -387,9 +387,9 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>357</x>
-      <y>406</y>
-      <w>147</w>
+      <x>441</x>
+      <y>413</y>
+      <w>231</w>
       <h>112</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
@@ -409,9 +409,9 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>511</x>
-      <y>406</y>
-      <w>147</w>
+      <x>679</x>
+      <y>413</y>
+      <w>231</w>
       <h>112</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
