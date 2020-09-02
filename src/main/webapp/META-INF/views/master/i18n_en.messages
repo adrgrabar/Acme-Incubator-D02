@@ -31,14 +31,14 @@ master.menu.anonymous = Anonymous
 master.menu.anonymous.adrian-link = Adrian's link
 master.menu.anonymous.notice = Active notices
 master.menu.anonymous.toolRecord = Tool records
-master.menu.anonymous.technologyRecord = Technologies
+master.menu.anonymous.technologyRecord = Technology records
 
 # master.menu.authenticated ###################################################
 
 master.menu.authenticated = Athenticated
 master.menu.authenticated.notice = Active notices
 master.menu.authenticated.toolRecord = Tool records
-master.menu.authenticated.technologyRecord = Technologies
+master.menu.authenticated.technologyRecord = Technology records
 master.menu.authenticated.inquiry = Inquiries
 master.menu.authenticated.overture = Overtures
 master.menu.authenticated.challenge = Challenges
