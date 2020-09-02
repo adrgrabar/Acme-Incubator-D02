@@ -296,4 +296,136 @@ m2=*
 has v</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>203</x>
+      <y>301</y>
+      <w>147</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Notice
+--
+-picture:String{NotBlank,URL}
+-title:String{NotBlank}
+-date:Date{Temporal(TIMESTAMP),NotNull}
+-deadline:Date{Temporal(TIMESTAMP),NotNull}
+-body:String{NotBlank,Column(length=1024)}
+-links:String
+
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>203</x>
+      <y>406</y>
+      <w>147</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Challenge
+--
+-title:String{NotBlank}
+-deadline:Date{Temporal(TIMESTAMP),NotNull}
+-rookieGoal:String{NotBlank}
+-averageGoal:String{NotBlank}
+-expertGoal:String{NotBlank}
+-rookieReward:Money{NotNull,Valid}
+-averageReward:Money{NotNull,Valid}
+-expertReward:Money{NotNull,Valid}
+
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>203</x>
+      <y>539</y>
+      <w>147</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Inquiry
+--
+-title:String{NotBlank}
+-description:String{NotBlank,Column(length=1024)}
+-date:Date{Temporal(TIMESTAMP),NotNull}
+-deadline:Date{Temporal(TIMESTAMP),NotNull}
+-email:String{NotBlank,Email}
+-moneyStart:Money{NotNull,Valid}
+-moneyEnd:Money{NotNull,Valid}
+
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>357</x>
+      <y>539</y>
+      <w>147</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Overture
+--
+-title:String{NotBlank}
+-description:String{NotBlank,Column(length=1024)}
+-date:Date{Temporal(TIMESTAMP),NotNull}
+-deadline:Date{Temporal(TIMESTAMP),NotNull}
+-email:String{NotBlank,Email}
+-moneyStart:Money{NotNull,Valid}
+-moneyEnd:Money{NotNull,Valid}
+
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>357</x>
+      <y>406</y>
+      <w>147</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+ToolRecord
+--
+-title:String{NotBlank}
+-activitySector:String{NotBlank}
+-inventor:String{NotBlank}
+-webSite:String{NotBlank,URL}
+-description:String{NotBlank,Column(length=1024)}
+-openSource:Boolean
+-stars:Integer
+
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>511</x>
+      <y>406</y>
+      <w>147</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+TechnologyRecord
+--
+-title:String{NotBlank}
+-activitySector:String{NotBlank}
+-inventor:String{NotBlank}
+-webSite:String{NotBlank,URL}
+-description:String{NotBlank,Column(length=1024)}
+-openSource:Boolean
+-stars:Integer
+
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
